@@ -14,7 +14,7 @@ pipeline{
         stage('Clonar Repositorio'){
             steps{
                 script{
-                    git 'PONGAN EL LINK DE SU REPOSITORIO AQUI'
+                    git 'https://github.com/carlomagnowhite/jenkins-practice.git'
                 }
             }
         }
